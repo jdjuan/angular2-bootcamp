@@ -7,7 +7,7 @@ import { Component, OnInit,Inject } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  private username = '';
+  username = '';
   private _userService:IUserService;
 
   constructor(@Inject('IUserService') userService: IUserService) {
