@@ -8,7 +8,7 @@ import { Component, OnInit, Input,Inject } from '@angular/core';
 })
 export class TitleComponent implements OnInit {
   @Input() subtitle = '';
-  title = 'Angular Modules';
+  title = 'App Structure';
   user = '';
 
   constructor(@Inject('IUserService') userService: IUserService) {
