@@ -1,6 +1,6 @@
-import { IUserService } from './../core/definitions/user.service';
-import { News } from './shared/news';
-import { INewsService } from './shared/definitions/news.service';
+import { IUserService } from './../../services/definitions/user.service';
+import { INewsService } from './../../services/definitions/news.service';
+import { News } from './../../models/news';
 import { Component, OnInit, Inject } from '@angular/core';
 
 @Component({

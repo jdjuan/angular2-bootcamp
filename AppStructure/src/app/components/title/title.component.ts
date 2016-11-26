@@ -1,5 +1,5 @@
+import { IUserService } from './../../services/definitions/user.service';
 import { Observable, Subscription } from 'rxjs';
-import { IUserService } from './../definitions/user.service';
 import { Component, OnInit, Input,Inject ,OnDestroy } from '@angular/core';
 
 @Component({

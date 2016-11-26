@@ -1,6 +1,7 @@
+import { UserServiceConfig } from './../models/user-service-config';
 import { IUserService } from './definitions/user.service';
 import { Injectable, Optional } from '@angular/core';
-import { UserServiceConfig } from './user-service-config'
+
 import { Observable,Subject } from 'rxjs';
 
 let nextId = 1;

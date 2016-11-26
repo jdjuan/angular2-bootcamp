@@ -1,13 +1,17 @@
-import { NgModule }             from '@angular/core';
+import { ProfileComponent } from './components/profile/profile.component';
+import { NewsComponent } from './components/news/news.component';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-export const routes: Routes = [
-  { path: '', redirectTo: 'profile', pathMatch: 'full'},
-  { path: 'news', loadChildren: 'app/news/news.module#NewsModule' },
+
+const appRoutes: Routes = [
+  { path: '', redirectTo: 'profile', pathMatch: 'full' },
+  { path: 'profile', component: ProfileComponent },
+  { path: 'news', component: NewsComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(appRoutes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
