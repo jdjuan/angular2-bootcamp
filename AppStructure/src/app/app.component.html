@@ -2,6 +2,15 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <app-title [subtitle]="subtitle"></app-title>
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">News</a></li>
+      </ul>
     </div>
   </div>
 </nav>
+
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
