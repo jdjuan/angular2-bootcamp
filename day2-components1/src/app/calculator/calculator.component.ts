@@ -18,7 +18,11 @@ export class CalculatorComponent implements OnInit {
   }
   
   evalExpression(){
-    this.expression = eval(this.expression);
+    try{
+      this.expression = eval(this.expression);
+    }catch(e){
+      this.expression = "Error";
+    }
   }
 
 
