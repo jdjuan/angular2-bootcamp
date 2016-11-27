@@ -31,14 +31,20 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 ## Required Environment Setup
 
+### Accounts
+
+- Have a [GitHub](http://github.com/) account
+
 ### Tools
 
+- [Git](https://git-scm.com/)
 - [Node 4.x.x and NPM 3.x.x](https://nodejs.org/en/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-### Commands
+### Commands to run at home
 
-```npm install angular-cli -g```
+- ```npm install angular-cli -g```
+> This will take ~10 minutes
 
 ### DAY 1: Friday, December 2
 
