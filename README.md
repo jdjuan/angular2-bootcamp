@@ -50,6 +50,7 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 - [Slides](http://slides.com/jdjuan/angular2-day1)
 - Branches
+- [Angular CLI guide](https://cli.angular.io/reference.pdf)
 
 ### DAY 2: Saturday, December 3
 
