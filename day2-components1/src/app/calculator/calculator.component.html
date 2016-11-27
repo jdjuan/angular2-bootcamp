@@ -1,78 +1,78 @@
 <div class="row">
   <div class="col-xs-12 ">
-    <input type="number" value="123" class="result">
+    <input type="text" [value]="expression" class="result">
   </div>
 
   <div class="col-xs-12">
 
-         <!-- First Row -->
+     <!-- First Row -->
     <div class="row">
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">7</button>
+        <button-primary [DisplayText]="7" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">8</button>
+         <button-primary [DisplayText]="8"  (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">9</button>
+         <button-primary [DisplayText]="9"  (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-success btn-lg">+</button>
+        <button-success [DisplayText]="'+'" (clicked)="OnClick($event)"></button-success>
       </div>
     </div>
 
       <!-- Second Row -->
     <div class="row">
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">4</button>
+         <button-primary [DisplayText]="4" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">5</button>
+         <button-primary [DisplayText]="5" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">6</button>
+         <button-primary [DisplayText]="6" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-success btn-lg">-</button>
+         <button-success [DisplayText]="'-'" (clicked)="OnClick($event)"></button-success>
       </div>
     </div>
 
       <!-- Third Row -->
     <div class="row">
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">3</button>
+         <button-primary [DisplayText]="3" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">2</button>
+         <button-primary [DisplayText]="2" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">1</button>
+         <button-primary [DisplayText]="1" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-success btn-lg">*</button>
+         <button-success [DisplayText]="'*'" (clicked)="OnClick($event)"></button-success>
       </div>
     </div>
 
     <!-- Fourth Row -->
     <div class="row">
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">0</button>
+         <button-primary [DisplayText]="0" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-primary btn-lg">.</button>
+         <button-primary [DisplayText]="'.'" (clicked)="OnClick($event)"></button-primary>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-warning btn-lg">=</button>
+        <button-warning [DisplayText]="'='" (clicked)="evalExpression()"></button-warning>
       </div>
       <div class="col-xs-3">
-        <button type="button" class="btn btn-success btn-lg">/</button>
+        <button-success [DisplayText]="'/'" (clicked)="OnClick($event)"></button-success>
       </div>
     </div>
 
     <!-- Fifth Row -->
     <div class="row">
       <div class="col-xs-12">
-        <button type="button" class="btn btn-danger btn-lg">button</button>
+          <button-danger [DisplayText]="'Clear'" (clicked)="clearExpression()"></button-danger>
       </div>
     </div>
   </div>
