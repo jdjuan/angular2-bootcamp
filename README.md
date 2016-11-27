@@ -44,6 +44,7 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 ### Commands to run at home
 
 - ```npm install angular-cli -g```
+
 > This will take ~10 minutes
 
 
