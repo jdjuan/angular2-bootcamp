@@ -46,6 +46,9 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 - ```npm install angular-cli -g```
 > This will take ~10 minutes
 
+
+## Agenda
+
 ### DAY 1: Friday, December 2
 
 - Introduction
