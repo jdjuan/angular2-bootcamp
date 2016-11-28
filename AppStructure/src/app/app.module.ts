@@ -1,4 +1,3 @@
-import { AppRoutingModule } from './app-routing.module';
 import { ProfileModule } from './profile/profile.module';
 import { CoreModule } from './core/core.module';
 import { BrowserModule } from '@angular/platform-browser';
@@ -18,8 +17,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpModule,
     CoreModule,
-    ProfileModule,
-    AppRoutingModule
+    ProfileModule
   ],
   providers: [],
   bootstrap: [AppComponent]
