@@ -33,7 +33,7 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 ### Accounts
 
-- Have a [GitHub](http://github.com/) account
+- Sign up for a [GitHub](http://github.com/) account if you don't have one
 
 ### Tools
 
@@ -41,9 +41,13 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 - [Node 4.x.x and NPM 3.x.x](https://nodejs.org/en/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 
-### Commands to run at home
+### Tasks
 
-- ```npm install angular-cli -g```
+- Setup SSH keys with you GitHub account following [these steps](https://help.github.com/articles/generating-an-ssh-key/)
+
+> When prompted for the **passphrase** field, leave it empty
+
+- Run ```npm install angular-cli -g```
 
 > This will take ~10 minutes
 
@@ -60,7 +64,8 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 - [Slides](http://slides.com/jdjuan/angular2-day1)
 - Branches
-- [Angular CLI guide](https://cli.angular.io/reference.pdf)
+- [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
+- [Angular CLI full guide](https://github.com/angular/angular-cli)
 
 ### DAY 2: Saturday, December 3
 
