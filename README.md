@@ -13,7 +13,7 @@ After taking this course you will understand how to use Angular 2 effectively by
 ## Selection Filter
 
 - The candidate should have experience in building web applications with HTML5 and JavaScript.
-- ES6 is desireable
+- ES6 is desirable
 - No previous experience with AngularJS is required.
 
 ## Program Schedule
@@ -44,12 +44,10 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 ### Tasks
 
 - Setup SSH keys with you GitHub account following [these steps](https://help.github.com/articles/generating-an-ssh-key/)
-
-> When prompted for the **passphrase** field, leave it empty
+  - When prompted for the **passphrase** field, leave it empty
 
 - Run ```npm install angular-cli -g```
-
-> This will take ~10 minutes
+  - This will take ~10 minutes
 
 
 ## Agenda
@@ -128,4 +126,3 @@ The participants must take at least 80% of the course, this is 26 hours.
 ### Evaluation Parameters
 
 TBD
-
