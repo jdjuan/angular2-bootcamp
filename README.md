@@ -47,8 +47,9 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
   - When prompted for the **passphrase** field, leave it empty
 
 - Run ```npm install angular-cli -g```
-  - This will take ~10 minutes
-
+  - This will take ~8 minutes
+  
+- Run ```npm install typescript -g```
 
 ## Agenda
 
