@@ -16,18 +16,6 @@ After taking this course you will understand how to use Angular 2 effectively by
 - ES6 is desirable
 - No previous experience with AngularJS is required.
 
-## Program Schedule
-
-December | Schedule | Duration
----------|----------|---------
-Friday 2 | 5:00 pm - 9:00 pm | 4
-Saturday 3 | 8:00 am - 5:00 pm | 8
-Monday 5 |  5:00 pm - 9:00 pm | 4
-Tuesday 6 | 5:00 pm - 9:00 pm | 4
-Friday 16 | 5:00 pm - 9:00 pm | 4
-Saturday 17 | 8:00 am - 5:00 pm | 8
- | Total Duration | 32 Hours
-
 ## Required Environment Setup
 
 ### Accounts
@@ -47,12 +35,26 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 - Run ```npm install angular-cli -g```
   - This will take ~8 minutes
-  
+
 - Run ```npm install typescript -g```
+
+## Program Schedule
+
+December | Schedule | Duration
+---------|----------|---------
+Friday 2 | 5:00 pm - 9:00 pm | <center>4
+Saturday 3 | 8:00 am - 5:00 pm | <center>8
+Monday 5 |  5:00 pm - 9:00 pm | <center>4
+Tuesday 6 | 5:00 pm - 9:00 pm | <center>4
+Friday 16 | 5:00 pm - 9:00 pm | <center>4
+Saturday 17 | 8:00 am - 5:00 pm | <center>8
+ | <center>**Total Duration** | <center>**32 Hours**
 
 ## Agenda
 
 ### DAY 1: Friday, December 2
+
+#### Content
 
 - Introduction
 - Setup and Tooling
@@ -67,6 +69,8 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 ### DAY 2: Saturday, December 3
 
+#### Content
+
 - Architecture of A2
 - App structure
 - Components
@@ -74,9 +78,13 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 ### DAY 3: Monday, December 5
 
+#### Content
+
 - NgModules
 
 ### DAY 4: Tuesday, December 6
+
+#### Content
 
 - Pipes
 - Dependency Injection
@@ -84,10 +92,14 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 ### DAY 5: Friday, December 16
 
+#### Content
+
 - HTTP, Promises, and Observables
 - Directives
 
 ### DAY 6: Saturday, December 17
+
+#### Content
 
 - Lazy-loading
 - Real World Application
