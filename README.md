@@ -28,7 +28,6 @@ Friday 16 | 5:00 pm - 9:00 pm | 4
 Saturday 17 | 8:00 am - 5:00 pm | 8
  | Total Duration | 32 Hours
 
-
 ## Required Environment Setup
 
 ### Accounts
@@ -61,10 +60,10 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 #### Resources
 
-- [Slides](http://slides.com/jdjuan/angular2-day1)
-- Branches
 - [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
 - [Angular CLI full guide](https://github.com/angular/angular-cli)
+- [ES2015 Features](http://es6-features.org/)
+- [ES2015 Cheat Sheet](https://github.com/jdjuan/juan-herrera/blob/master/what-I-know/web-development/js/es2015.md)
 
 ### DAY 2: Saturday, December 3
 
@@ -73,19 +72,9 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 - Components
 - Binding and Events
 
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day2)
-- Branches
-
 ### DAY 3: Monday, December 5
 
 - NgModules
-
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day3)
-- Branches
 
 ### DAY 4: Tuesday, December 6
 
@@ -93,30 +82,15 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 - Dependency Injection
 - Services
 
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day4)
-- Branches
-
 ### DAY 5: Friday, December 16
 
 - HTTP, Promises, and Observables
 - Directives
 
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day5)
-- Branches
-
 ### DAY 6: Saturday, December 17
 
 - Lazy-loading
 - Real World Application
-
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day6)
-- Branches
 
 ## Success Criteria
 
