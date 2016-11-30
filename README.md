@@ -13,7 +13,7 @@ After taking this course you will understand how to use Angular 2 effectively by
 ## Selection Filter
 
 - The candidate should have experience in building web applications with HTML5 and JavaScript.
-- ES6 is desirable
+- Understanding the changes added to ES2015 is desirable.
 - No previous experience with AngularJS is required.
 
 ## Program Schedule
