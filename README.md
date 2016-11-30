@@ -65,7 +65,9 @@ Saturday 17 | 8:00 am - 5:00 pm | <center>8
 - [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
 - [Angular CLI full guide](https://github.com/angular/angular-cli)
 - [ES2015 Features](http://es6-features.org/)
+- [ES2015 Examples](https://github.com/lukehoban/es6features)
 - [ES2015 Cheat Sheet](https://github.com/jdjuan/juan-herrera/blob/master/what-I-know/web-development/js/es2015.md)
+- [JS Module Systems](https://github.com/curran/screencasts/tree/gh-pages/jsModulesAndBuildTools)
 
 ### DAY 2: Saturday, December 3
 
