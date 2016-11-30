@@ -16,19 +16,6 @@ After taking this course you will understand how to use Angular 2 effectively by
 - Understanding the changes added to ES2015 is desirable.
 - No previous experience with AngularJS is required.
 
-## Program Schedule
-
-December | Schedule | Duration
----------|----------|---------
-Friday 2 | 5:00 pm - 9:00 pm | 4
-Saturday 3 | 8:00 am - 5:00 pm | 8
-Monday 5 |  5:00 pm - 9:00 pm | 4
-Tuesday 6 | 5:00 pm - 9:00 pm | 4
-Friday 16 | 5:00 pm - 9:00 pm | 4
-Saturday 17 | 8:00 am - 5:00 pm | 8
- | Total Duration | 32 Hours
-
-
 ## Required Environment Setup
 
 ### Accounts
@@ -47,12 +34,27 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
   - When prompted for the **passphrase** field, leave it empty
 
 - Run ```npm install angular-cli -g```
-  - This will take ~10 minutes
+  - This will take ~8 minutes
 
+- Run ```npm install typescript -g```
+
+## Program Schedule
+
+December | Schedule | Duration
+---------|----------|---------
+Friday 2 | 5:00 pm - 9:00 pm | <center>4
+Saturday 3 | 8:00 am - 5:00 pm | <center>8
+Monday 5 |  5:00 pm - 9:00 pm | <center>4
+Tuesday 6 | 5:00 pm - 9:00 pm | <center>4
+Friday 16 | 5:00 pm - 9:00 pm | <center>4
+Saturday 17 | 8:00 am - 5:00 pm | <center>8
+ | <center>**Total Duration** | <center>**32 Hours**
 
 ## Agenda
 
 ### DAY 1: Friday, December 2
+
+#### Content
 
 - Introduction
 - Setup and Tooling
@@ -60,62 +62,47 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 #### Resources
 
-- [Slides](http://slides.com/jdjuan/angular2-day1)
-- Branches
 - [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
 - [Angular CLI full guide](https://github.com/angular/angular-cli)
+- [ES2015 Features](http://es6-features.org/)
+- [ES2015 Cheat Sheet](https://github.com/jdjuan/juan-herrera/blob/master/what-I-know/web-development/js/es2015.md)
 
 ### DAY 2: Saturday, December 3
+
+#### Content
 
 - Architecture of A2
 - App structure
 - Components
 - Binding and Events
 
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day2)
-- Branches
-
 ### DAY 3: Monday, December 5
+
+#### Content
 
 - NgModules
 
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day3)
-- Branches
-
 ### DAY 4: Tuesday, December 6
+
+#### Content
 
 - Pipes
 - Dependency Injection
 - Services
 
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day4)
-- Branches
-
 ### DAY 5: Friday, December 16
+
+#### Content
 
 - HTTP, Promises, and Observables
 - Directives
 
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day5)
-- Branches
-
 ### DAY 6: Saturday, December 17
+
+#### Content
 
 - Lazy-loading
 - Real World Application
-
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day6)
-- Branches
 
 ## Success Criteria
 
