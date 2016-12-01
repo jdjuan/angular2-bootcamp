@@ -42,13 +42,13 @@ After taking this course you will understand how to use Angular 2 effectively by
 
 December | Schedule | Duration
 ---------|----------|---------
-Friday 2 | 5:00 pm - 9:00 pm | <center>4
-Saturday 3 | 8:00 am - 5:00 pm | <center>8
-Monday 5 |  5:00 pm - 9:00 pm | <center>4
-Tuesday 6 | 5:00 pm - 9:00 pm | <center>4
-Friday 16 | 5:00 pm - 9:00 pm | <center>4
-Saturday 17 | 8:00 am - 5:00 pm | <center>8
- | <center>**Total Duration** | <center>**32 Hours**
+Friday 2 | 5:00 pm - 9:00 pm | 4
+Saturday 3 | 8:00 am - 5:00 pm | 8
+Monday 5 |  5:00 pm - 9:00 pm | 4
+Tuesday 6 | 5:00 pm - 9:00 pm | 4
+Friday 16 | 5:00 pm - 9:00 pm | 4
+Saturday 17 | 8:00 am - 5:00 pm | 8
+ | **Total Duration** | **32 Hours**
 
 ## Agenda
 
@@ -62,12 +62,18 @@ Saturday 17 | 8:00 am - 5:00 pm | <center>8
 
 #### Resources
 
-- [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
-- [Angular CLI full guide](https://github.com/angular/angular-cli)
-- [ES2015 Features](http://es6-features.org/)
-- [ES2015 Examples](https://github.com/lukehoban/es6features)
-- [ES2015 Cheat Sheet](https://github.com/jdjuan/juan-herrera/blob/master/what-I-know/web-development/js/es2015.md)
-- [JS Module Systems](https://github.com/curran/screencasts/tree/gh-pages/jsModulesAndBuildTools)
+- Angular CLI
+  - [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
+  - [Angular CLI full guide](https://github.com/angular/angular-cli)
+- JavaScript
+  - [ES2015 Features](http://es6-features.org/)
+  - [ES2015 Examples](https://github.com/lukehoban/es6features)
+  - [ES2015 Cheat Sheet](https://github.com/jdjuan/juan-herrera/blob/master/what-I-know/web-development/js/es2015.md)
+  - [JS Module Systems](https://github.com/curran/screencasts/tree/gh-pages/jsModulesAndBuildTools)
+  - [ES2015 Playground](http://es6console.com/)
+- TypeScript
+  - [TypeScripy Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+  - [TypeScript Playground](https://www.typescriptlang.org/play/)
 
 ### DAY 2: Saturday, December 3
 
