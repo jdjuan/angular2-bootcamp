@@ -3,8 +3,8 @@
 1. Create a function `bark()` that outputs a `string` passed in
 2. Create a class `Dog` with three variables: `age`, `name` and `breed`
 3. Add a constructor to the class `Dog` for the `name` parameter
-4. Add access modifiers to the `Dog` class. And add the function `bark()` to the `Dog` class
-5. Create the `Cat` class with the same parameters as the `Dog` class but with the `meow()` function
+4. Add access modifiers to the `Dog` attributes. And add the function `bark()` to the `Dog` class
+5. Create the `Cat` class with the same variables as the `Dog` class but with the `meow()` function
 6. Create a `class` named `Animal` with `age and breed` variables. Make `Dog and Cat` inherit from it
 7. Change to `bark() and meow()` functions to return the argument along with the `woof!` and `meow!` suffix respectively
 8. Enforce `bark() and meow()` to return a string 
