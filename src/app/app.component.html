@@ -10,8 +10,10 @@
                   [(ngModel)]="person.name"
                   required
                   #name="ngModel">
+            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+              Please write a name
+            </div>
         </div>
-        {{name}}
         <div class="form-group">
             <label for="alterEgo">Alter Ego</label>
             <input type="text" 
@@ -21,8 +23,10 @@
                   [(ngModel)]="person.alterEgo"
                   required
                   #alterEgo="ngModel">
+            <div [hidden]="alterEgo.valid || alterEgo.pristine" class="alert alert-danger">
+              Please write an alterEgo
+            </div>
         </div>
-        {{alterEgo}}
         <button type="button" class="btn btn-default">New Person</button>
     </form>
 </div>
