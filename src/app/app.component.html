@@ -7,16 +7,22 @@
                   class="form-control" 
                   id="name" 
                   name="name"
-                  [(ngModel)]="person.name">
+                  [(ngModel)]="person.name"
+                  required
+                  #name="ngModel">
         </div>
+        {{name}}
         <div class="form-group">
             <label for="alterEgo">Alter Ego</label>
             <input type="text" 
                   class="form-control" 
                   id="alterEgo" 
                   name="alterEgo"
-                  [(ngModel)]="person.alterEgo">
+                  [(ngModel)]="person.alterEgo"
+                  required
+                  #alterEgo="ngModel">
         </div>
+        {{alterEgo}}
         <button type="button" class="btn btn-default">New Person</button>
     </form>
 </div>
