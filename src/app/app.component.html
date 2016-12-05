@@ -3,11 +3,19 @@
     <form>
         <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" class="form-control" id="name" name="name">
+            <input type="text" 
+                  class="form-control" 
+                  id="name" 
+                  name="name"
+                  [(ngModel)]="person.name">
         </div>
         <div class="form-group">
             <label for="alterEgo">Alter Ego</label>
-            <input type="text" class="form-control" id="alterEgo" name="alterEgo">
+            <input type="text" 
+                  class="form-control" 
+                  id="alterEgo" 
+                  name="alterEgo"
+                  [(ngModel)]="person.alterEgo">
         </div>
         <button type="button" class="btn btn-default">New Person</button>
     </form>
