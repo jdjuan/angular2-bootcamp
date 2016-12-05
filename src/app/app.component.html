@@ -1,6 +1,6 @@
 <div class="container">
     <h1>Person Form</h1>
-    <form #personForm="ngForm">
+    <form (ngSubmit)="onSubmit()" #personForm="ngForm">
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" 
@@ -27,7 +27,8 @@
               Please write an alterEgo
             </div>
         </div>
-        <button type="button" class="btn btn-default" 
+        <button type="button" class="btn btn-default"
+              (click)="personForm.reset()" 
               [disabled]="!personForm.form.valid">New Person</button>
     </form>
 </div>

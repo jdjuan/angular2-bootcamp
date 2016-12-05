@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   person = new Person(1, "Juan", "Batman");
+  
+  onSubmit() {
+    this.person = new Person(2, '', '');
+  }
 }
