@@ -29,3 +29,5 @@
     * src/app/core/calculator
 7. add the log routine in the catch of the calculator service
     * src/app/core/calculator
+8. Import the CoreModule in the AppModule
+    * src/app/AppModule

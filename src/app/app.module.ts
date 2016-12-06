@@ -1,3 +1,4 @@
+import { CoreModule } from './core/core.module';
 import { CalculatorModule } from './calculator/calculator.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -14,7 +15,8 @@ import { AppComponent } from './app.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    CalculatorModule
+    CalculatorModule,
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
