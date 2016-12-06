@@ -1,3 +1,4 @@
+import { LoggerServiceProvider } from './logger.provider';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -5,5 +6,6 @@ import { CommonModule } from '@angular/common';
   imports: [
     CommonModule
   ],
+  providers: [LoggerServiceProvider]
 })
 export class CoreModule { }

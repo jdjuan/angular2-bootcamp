@@ -23,3 +23,5 @@
     * src/app/core/logger-dev.service.ts 
 4. Create a custom provider in the core module.
     * src/app/core/logger.provider.ts
+5. Configure the core module providers to resolve the logger dependency
+    * src/app/core/calculator.module.ts
