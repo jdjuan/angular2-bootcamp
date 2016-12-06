@@ -1,3 +1,4 @@
+import { CalculatorService } from './../calculator.service';
 import { Component, OnInit } from '@angular/core';
 import {ButtonComponent} from './button.component'
 
@@ -7,8 +8,8 @@ import {ButtonComponent} from './button.component'
     styleUrls: ['./button.component.css']
 }, ButtonComponent.metaData))
 export class DangerButton extends ButtonComponent {
-    constructor() { 
-        super("btn-danger");
+    constructor(calService:CalculatorService) { 
+        super("btn-danger",calService);
     }
 
     ngOnInit() { 

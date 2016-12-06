@@ -1,3 +1,4 @@
+import { CalculatorService } from './shared/calculator.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class CalculatorComponent implements OnInit {
   expression:string="";
 
-  constructor() { }
+  constructor(private myService:CalculatorService) { }
 
   ngOnInit() {
   }
@@ -18,15 +19,15 @@ export class CalculatorComponent implements OnInit {
   }
   
   evalExpression(){
-    try{
-      this.expression = eval(this.expression);
-    }catch(e){
-      this.expression = "Error";
-    }
+debugger;
+    this.expression =  this.myService.getResult();
   }
 
 
   clearExpression(){
-    this.expression = "";
+    debugger;
+    this.expression = this.myService.clearResult();
   }
 }
+
+

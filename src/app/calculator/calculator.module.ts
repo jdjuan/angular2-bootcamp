@@ -1,3 +1,4 @@
+import { CalculatorService } from './shared/calculator.service';
 import { WarningButton } from './shared/button/button-warning.component';
 import { PrimaryButton } from './shared/button/button-primary.component';
 import { SuccessButton } from './shared/button/button-success.component';
@@ -12,6 +13,7 @@ import { ButtonComponent } from './shared/button/button.component';
     CommonModule
   ],
   declarations: [CalculatorComponent,DangerButton,SuccessButton,PrimaryButton,WarningButton],
-  exports: [CalculatorComponent]
+  exports: [CalculatorComponent],
+  providers:[CalculatorService]
 })
 export class CalculatorModule { }
