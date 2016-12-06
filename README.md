@@ -17,3 +17,4 @@
 
 # Create a factory
 1. Create a Core Module in the root
+2. Create a interface 'ILogger' with the function 'logError'
