@@ -9,4 +9,9 @@
 4. Configure the provider to resolve the dependency ICalculator with the CalculatorService
     * src/app/calculator/calculator.module.ts
     * ***Note*** : we are not able to use an interface so we use a string name.
-    
+5. Use the @Inject in the components we want angular to inject the interface
+    * src/app/calculator/calculator.component.ts
+    * src/app/calculator/button/buttons
+
+    :tada: Check it works!!
+

@@ -1,5 +1,5 @@
 import { ICalculator } from './../definitions/calculator.service';
-import { Component } from '@angular/core';
+import { Component,Inject } from '@angular/core';
 import {ButtonComponent} from './button.component'
 
 @Component(Object.assign({
@@ -8,7 +8,7 @@ import {ButtonComponent} from './button.component'
     styleUrls: ['./button.component.css']
 }, ButtonComponent.metaData))
 export class DangerButton extends ButtonComponent {
-    constructor(calService: ICalculator) { 
+    constructor(@Inject('ICalculator') calService: ICalculator) { 
         super('btn-danger', calService);
     }
 

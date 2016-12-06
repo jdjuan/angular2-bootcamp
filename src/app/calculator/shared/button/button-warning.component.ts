@@ -1,6 +1,6 @@
 import { ICalculator } from './../definitions/calculator.service';
-import { Component } from '@angular/core';
-import {ButtonComponent} from './button.component'
+import { Component,Inject } from '@angular/core';
+import {ButtonComponent} from './button.component';
 
 @Component(Object.assign({
     selector: 'button-warning',
@@ -8,7 +8,7 @@ import {ButtonComponent} from './button.component'
     styleUrls: ['./button.component.css']
 }, ButtonComponent.metaData))
 export class WarningButton extends ButtonComponent {
-    constructor(calService: ICalculator) { 
+    constructor(@Inject('ICalculator') calService: ICalculator) { 
         super('btn-warning', calService);
     }
 

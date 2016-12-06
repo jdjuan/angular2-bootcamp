@@ -1,6 +1,5 @@
 import { ICalculator } from './shared/definitions/calculator.service';
-import { CalculatorService } from './shared/calculator.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-calculator',
@@ -10,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class CalculatorComponent implements OnInit {
   expression: string= '';
 
-  constructor(private myService: ICalculator) { }
+  constructor(@Inject('ICalculator') private myService: ICalculator) { }
 
   ngOnInit() {
   }
@@ -18,8 +17,7 @@ export class CalculatorComponent implements OnInit {
   evalExpression(){
     this.expression =  this.myService.getResult();
   }
-
-
+  
   clearExpression(){
     this.expression = this.myService.clearResult();
   }
