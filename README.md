@@ -21,4 +21,5 @@
 3. Create two implementations of the 'ILogger' interface
     * src/app/core/logger.service.ts 
     * src/app/core/logger-dev.service.ts 
-
+4. Create a custom provider in the core module.
+    * src/app/core/logger.provider.ts

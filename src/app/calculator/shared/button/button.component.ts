@@ -23,7 +23,6 @@ export class ButtonComponent implements OnInit {
   }
 
   OnClick(){
-    debugger
     this.calService.addOperation(this.DisplayText);
     this.clicked.emit(this.DisplayText);
   }
