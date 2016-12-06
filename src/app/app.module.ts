@@ -27,7 +27,12 @@ import { EmployeeComponent } from './employee/employee.component';
       {
         path: 'employees/:id',
         component: EmployeeComponent
-      }
+      },
+      {
+        path: '**',
+        redirectTo: '/employees',
+        pathMatch: 'full'
+      },
     ])
   ],
   providers: [EmployeeService],

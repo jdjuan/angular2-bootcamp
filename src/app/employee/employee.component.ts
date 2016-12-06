@@ -1,3 +1,4 @@
+import { EmployeeService } from './../employee.service';
 import { Employee } from './../employee';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
@@ -13,11 +14,12 @@ export class EmployeeComponent implements OnInit {
   id;
 
   constructor(
-    private route: ActivatedRoute) { }
+    private route: ActivatedRoute, private employeeService: EmployeeService) { }
 
   ngOnInit() {
     this.route.params.forEach((params: Params) => 
       this.id = params['id']);
+    this.employee = this.employeeService.getEmployee(this.id);
   }
 
 }

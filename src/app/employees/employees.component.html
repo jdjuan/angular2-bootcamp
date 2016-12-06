@@ -1,9 +1,6 @@
 <div class="container">
     <div class="well" *ngFor="let employee of employees">
-      <input class="form-control" type="text" value="{{employee.id}}" disabled>
       <input class="form-control" type="text" value="{{employee.name}}">
-      <input class="form-control" type="text" value="{{employee.position}}">
-      <input class="form-control" type="text" value="{{employee.age}}">
       <a [routerLink]="['/employees', employee.id]">View</a>
     </div>
 </div>
