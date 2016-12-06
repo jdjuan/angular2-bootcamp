@@ -1,7 +1,7 @@
 export class Employee {
 	constructor(
-		id: number,
-		name: string = "Juan",
-		position: string = "Ingeniero",
-		age: number = 23) { }
+		public id: number,
+		public name: string = "Juan",
+		public position: string = "Ingeniero",
+		public age: number = 23) { }
 }

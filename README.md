@@ -16,3 +16,4 @@
 9. Add the route for the `Employee` component with the `id` parameter
 10. In `Employee` import all the necessary modules, inject all the dependencies and run a forEach to obtain the `id` sent through parameter
 11. Call the same service as above sending the `id` parameter to query all the related information and render it in the component
+12. Add a back button
