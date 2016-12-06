@@ -18,3 +18,7 @@
 # Create a factory
 1. Create a Core Module in the root
 2. Create a interface 'ILogger' with the function 'logError'
+3. Create two implementations of the 'ILogger' interface
+    * src/app/core/logger.service.ts 
+    * src/app/core/logger-dev.service.ts 
+
