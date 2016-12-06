@@ -1,14 +1,14 @@
+import { ICalculator } from './definitions/calculator.service';
 import { Injectable } from '@angular/core';
 
 @Injectable()
-export class CalculatorService {
+export class CalculatorService implements ICalculator {
   private theExpression: string = '';
   private validExpression = /^[\d\+\/\*\.\- \(\)]*$/;
 
   constructor() { }
 
   public addOperation(operation: string) {
-    debugger
     let isValid = this.validExpression.test(operation);
 
     if (isValid) {
@@ -19,18 +19,15 @@ export class CalculatorService {
   }
 
   public getResult(): string {
-    debugger
     try {
       return eval(this.theExpression);
     } catch (e) {
-      return "Error";
+      return 'Error';
     }
   }
 
-  public clearResult():string {
-
-    debugger
-    return this.theExpression = "";
+  public clearResult(): string {
+    return this.theExpression = '';
   }
 
 }
