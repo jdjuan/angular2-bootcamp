@@ -27,3 +27,5 @@
     * src/app/core/core.module.ts
 6. Inject the ILogger to the CalculatorService
     * src/app/core/calculator
+7. add the log routine in the catch of the calculator service
+    * src/app/core/calculator

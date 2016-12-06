@@ -7,7 +7,7 @@ export class CalculatorService implements ICalculator {
   private theExpression: string = '';
   private validExpression = /^[\d\+\/\*\.\- \(\)]*$/;
 
-  constructor(@Inject('ILogger') logger:ILogger) { }
+  constructor(@Inject('ILogger') private logger:ILogger) { }
 
   public addOperation(operation: string) {
     let isValid = this.validExpression.test(operation);
@@ -23,6 +23,7 @@ export class CalculatorService implements ICalculator {
     try {
       return eval(this.theExpression);
     } catch (e) {
+      this.logger.logError("Invalid expression found");
       return 'Error';
     }
   }
