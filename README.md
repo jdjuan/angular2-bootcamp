@@ -7,7 +7,7 @@
 	- Age
 1. Create two components: `Employees` and `Employee` 
 2. Create a service that returns a list of employees
-3. Call the service from the `Employees` component to render all the employees
+3. Call the service from the `Employees` component to render all the employees. Don't forget to use Bootstrap styles.
 4. Import Route module in the App.module
 5. Add a routes for the `Employees` component and the default url ('')
 6. Add the `<route-outlet>` element in the main module
