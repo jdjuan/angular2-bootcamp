@@ -1,5 +1,6 @@
+import { ICalculator } from './../definitions/calculator.service';
 import { CalculatorService } from './../calculator.service';
-import { Component, OnInit, Input,Optional,Output,EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Optional, Output, EventEmitter } from '@angular/core';
 
 
 export class ButtonComponent implements OnInit {
@@ -9,11 +10,11 @@ export class ButtonComponent implements OnInit {
     outputs: ['clicked']
   };
 
-  @Input() DisplayText:string;
+  @Input() DisplayText: string;
   @Output() clicked= new EventEmitter<string>();
-  typeClass:string;
+  typeClass: string;
 
-  constructor(@Optional() bsClass:string ="btn-default",private calService:CalculatorService) { 
+  constructor(@Optional() bsClass = 'btn-default', private calService: ICalculator) { 
     this.typeClass = bsClass;
   }
 

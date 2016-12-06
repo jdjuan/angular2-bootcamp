@@ -1,5 +1,5 @@
-import { CalculatorService } from './../calculator.service';
-import { Component, OnInit } from '@angular/core';
+import { ICalculator } from './../definitions/calculator.service';
+import { Component} from '@angular/core';
 import {ButtonComponent} from './button.component'
 
 @Component(Object.assign({
@@ -8,8 +8,8 @@ import {ButtonComponent} from './button.component'
     styleUrls: ['./button.component.css']
 }, ButtonComponent.metaData))
 export class PrimaryButton extends ButtonComponent {
-    constructor(calService:CalculatorService) { 
-        super("btn-primary",calService);
+    constructor(calService: ICalculator) { 
+        super('btn-primary', calService);
     }
 
     ngOnInit() { 
