@@ -15,3 +15,5 @@
 
     :tada: Check it works!!
 
+# Create a factory
+1. Create a Core Module in the root
