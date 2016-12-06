@@ -24,6 +24,10 @@ import { EmployeeComponent } from './employee/employee.component';
         path: '',
         component: EmployeesComponent
       },
+      {
+        path: 'employees/:id',
+        component: EmployeeComponent
+      }
     ])
   ],
   providers: [EmployeeService],
