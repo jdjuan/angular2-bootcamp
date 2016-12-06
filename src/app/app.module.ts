@@ -1,3 +1,4 @@
+import { EmployeeService } from './employee.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -18,7 +19,7 @@ import { EmployeeComponent } from './employee/employee.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
