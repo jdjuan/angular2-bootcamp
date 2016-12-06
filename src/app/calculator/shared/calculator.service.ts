@@ -1,12 +1,13 @@
+import { ILogger } from './../../core/definitions/logger.service';
 import { ICalculator } from './definitions/calculator.service';
-import { Injectable } from '@angular/core';
+import { Injectable,Inject } from '@angular/core';
 
 @Injectable()
 export class CalculatorService implements ICalculator {
   private theExpression: string = '';
   private validExpression = /^[\d\+\/\*\.\- \(\)]*$/;
 
-  constructor() { }
+  constructor(@Inject('ILogger') logger:ILogger) { }
 
   public addOperation(operation: string) {
     let isValid = this.validExpression.test(operation);

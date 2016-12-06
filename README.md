@@ -25,3 +25,5 @@
     * src/app/core/logger.provider.ts
 5. Configure the core module providers to resolve the logger dependency
     * src/app/core/core.module.ts
+6. Inject the ILogger to the CalculatorService
+    * src/app/core/calculator
