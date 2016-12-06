@@ -1,3 +1,4 @@
+import { ICalculator } from './shared/definitions/calculator.service';
 import { CalculatorService } from './shared/calculator.service';
 import { WarningButton } from './shared/button/button-warning.component';
 import { PrimaryButton } from './shared/button/button-primary.component';
@@ -6,7 +7,6 @@ import { DangerButton } from './shared/button/button-danger.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CalculatorComponent } from './calculator.component';
-import { ButtonComponent } from './shared/button/button.component';
 
 @NgModule({
   imports: [
@@ -14,6 +14,6 @@ import { ButtonComponent } from './shared/button/button.component';
   ],
   declarations: [CalculatorComponent,DangerButton,SuccessButton,PrimaryButton,WarningButton],
   exports: [CalculatorComponent],
-  providers:[CalculatorService]
+  providers:[{provide:'ICalculator',useClass:CalculatorService}]
 })
 export class CalculatorModule { }
