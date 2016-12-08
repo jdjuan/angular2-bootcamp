@@ -1,19 +1,47 @@
-# Angular2Bootcamp
+# Project
 
-0. Create a model `Employee` with the following variables:
-	- Id: number
-	- Name: string
-	- Position: string
-	- Age: number
-1. Create two components: `Employees` and `Employee` 
-2. Create a service that returns a list of employees
-3. Call the service from the `Employees` component to render all the employees' name. Don't forget to use Bootstrap styles.
-4. Import Route module in the App.module
-5. Add a routes for the `Employees` component and the default url (''). Also for the wildcard `**`
-6. Add the `<route-outlet>` element in the main module
-7. Change the template of Employees to wrap every employee in an anchor tag
-8. Add the `routerLink` attribute to the anchors sending the Id
-9. Add the route for the `Employee` component with the `id` parameter
-10. In `Employee` import all the necessary modules, inject all the dependencies and run a forEach to obtain the `id` sent through parameter
-11. Call the same service as above sending the `id` parameter to query all the related information and render it in the component
-12. Add a back button
+## [Mockup](https://app.moqups.com/angular2/eFWZ0QkYjX/view/page/a3ee94602)
+
+## Description
+
+Let's create a basic eLearning system with the following user stories:
+
+- The user can see the home page
+- The user can access the courses module:
+	- The user can see all the courses available:
+		- Order them by name, duration or start date
+		- The list should provide visual cues to identify in relation to the current date:
+			- Expired courses: Courses that already happened
+			- Upcoming courses: Courses that are about to start within the next 30 days
+			- Future courses: Courses that will start after 30 days
+	- The user can click in any course and update it:
+		- The information will only be saved once the user clicks 'Save'
+		- Visual cues will also apply when the users updates the course date 
+	- The user can also add new courses
+- The user can access the teachers module:
+	- The user can see all the teachers available:
+		- The user can order them by name or last name
+		- The user can click in any teacher and update it:
+			- The information will only be saved once the user clicks 'Save' 
+		- The user can also add new teachers
+	
+## Evaluation
+The following parameters will be evaluated:
+- 40% : Correct application of concepts learned in class
+	- Do your best to put into practice all the concepts learned in class: components, modules, directives, dependencies, etc
+- 20% : Escalability of the application
+	- We will evaluate how well will your application scale if new features were to added: We will take into account the right use of the 'share' folder, dependency injection, factories, etc. 
+- 20% : Code quality
+	- TypeScript allow you to write JavaScript the right way, so make sure you use Type Checkings, access modifiers, so on and so forth. 
+- 10% : Bootstrap use
+	- We don't expect it to look pretty, but at least we want you to use Bootstrap styles to save yourself writing as much CSS as you would without it.
+
+## Extra points
+You will get extra points if you:
+- Contribute answering questions in the #preguntas channel in Slack
+- Use features of Angular2 we haven't taught you
+- Add a README.MD that explains how you abstracted your solution
+- Make Felipe and I say: "Wow!"
+
+## Questions and Answers
+Felipe and I will do our best to be available to answer your questions, but if
