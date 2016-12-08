@@ -44,4 +44,4 @@ You will get extra points if you:
 - Make Felipe and I say: "Wow!"
 
 ## Questions and Answers
-Felipe and I will do our best to be available to answer your questions, but if
+Felipe and I will do our best to be available to answer your questions through Slack, but please be patient
