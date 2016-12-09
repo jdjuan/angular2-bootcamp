@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-xs-12">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <ul class="list-group">
+          <div class="list-group">
+            <div href="#" class="list-group-item " *ngFor="let message of messages"
+            [ngClass]="{'list-group-item-success': true}">
+              <h4 class="list-group-item-heading">{{message.author}}</h4>
+              <p class="list-group-item-text">{{message.text}}</p>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
