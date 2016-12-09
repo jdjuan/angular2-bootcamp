@@ -5,7 +5,8 @@
         <ul class="list-group">
           <div class="list-group">
             <div href="#" class="list-group-item " *ngFor="let message of messages"
-            [ngClass]="{'list-group-item-success': true}">
+            [ngClass]="{'list-group-item-success': isUser(message.author),
+              'list-group-item-info': !isUser(message.author)}">
               <h4 class="list-group-item-heading">{{message.author}}</h4>
               <p class="list-group-item-text">{{message.text}}</p>
             </div>
