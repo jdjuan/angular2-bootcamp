@@ -1,94 +1,28 @@
 # Angular 2 Boot Camp
 
-## Description
+## App structure exercise
 
-This course covers all the core concepts and technical knowledge required to build professional Angular 2 applications. This boot camp includes an introduction to SPA,  TypeScript, project setup, architecture, events, data binding, services, remote calls, observables, routing, modules among others.
+Based on the concepts seen in the App structure session, refactor the following application so it follows the Folder-by-Feature structure.
 
-After taking this course you will understand how to use Angular 2 effectively by building a real world example. We will go through several hand-on exercises where you will grasp the main concepts of building a robust web application.
+## File information:
+- [highlight.directive.ts](/src/app/directives/highlight.directive.ts): directive that highlight a text in the application, **can be use by every module**.
+- [user.service.ts](/src/app/services/user.service.ts): a service that provides the information of the current user, **can be use by every module but should be the same instance for every module(singleton).** This service depends on UserServiceConfig model.(should be in the same folder)
+- [awsome.pipe.ts](/src/app/pipes/awsome.pipe.ts): a pipe that will prepend the word "awsome" to some phrase, **can be use by every module**.
+- [title.component](/src/app/components/title): an application component that shows the header of the application, **can be use by every module but should be the same instance for every module(singleton).**
+- [profile.component](/src/app/components/profile/): a component that allow us to edit the current user of the application, **this is part of the profile feature**
 
-## Assistance Limit
+**Recomendation**: If you put a **service** inside a folder, you must copy with it the "definition" folder that should contain the interface of the service. Also the module that contains the service should have the service in the declaration, for example:
 
-20 People
+ providers: [
+        { provide: 'IUserService', useClass: UserService },
+    ],
 
-## Selection Filter
-
-- The candidate should have experience in building web applications with HTML5 and JavaScript.
-- No previous experience with AngularJS is required.
-
-## Program Schedule
-
-December | Schedule | Duration
----------|----------|---------
-Friday 2 | 5:00 pm - 9:00 pm | 4
-Saturday 3 | 8:00 am - 5:00 pm | 8
-Monday 5 |  5:00 pm - 9:00 pm | 4
-Tuesday 6 | 5:00 pm - 9:00 pm | 4
-Friday 16 | 5:00 pm - 9:00 pm | 4
-Saturday 17 | 8:00 am - 5:00 pm | 8
- | Total Duration | 32 Hours
-
-
-## Required Environment Setup
-
-### DAY 1: Friday, December 2
-
-- Introduction
-- Setup and Tooling
-- TypeScript
-
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day1)
-- Branches
-
-### DAY 2: Saturday, December 3
-
-- Architecture of A2
-- App structure
-- Components
-- Binding and Events
-
-#### Resources
+**HINT**: The solution should have the following structure:
+![Modules](SolutionModules.PNG)
 
 - [Slides](http://slides.com/jdjuan/angular2-day2)
-- Branches
+- [Additional resource:](https://angular.io/styleguide#!#04-07)
 
-### DAY 3: Monday, December 5
+## Time limit
 
-- NgModules
-
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day3)
-- Branches
-
-### DAY 4: Tuesday, December 6
-
-- Pipes
-- Services
-
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day4)
-- Branches
-
-### DAY 5: Friday, December 16
-
-- HTTP, Promises, and Observables
-- Directives
-
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day5)
-- Branches
-
-### DAY 6: Saturday, December 17
-
-- Lazy-loading
-- Building and Tools
-- Real World Application
-
-#### Resources
-
-- [Slides](http://slides.com/jdjuan/angular2-day6)
-- Branches
+30 minutes
