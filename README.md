@@ -1,29 +1,25 @@
-# README #
+# Angular 2 Boot Camp
 
-This README would normally document whatever steps are necessary to get your application up and running.
+![Calculator](Calculator.PNG)
 
-### What is this repository for? ###
+## Components exercise #1
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+-Inside the **/src/index.html** and **/src/styles.css** you will find the required HTML and CSS to create a calculator. If you run **ng serve** inside **/day2-components1/** you will be able to access **http://localhost:4200/** and see the calculator.
 
-### How do I get set up? ###
+-You will need to create a feature module(calculator) that will contain a component with the requiered styles and template for the calculator.
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+-Do not forget to export the CalculatorComponent in the feature module and import it in the **root module**.
 
-### Contribution guidelines ###
+## Time Limit
 
-* Writing tests
-* Code review
-* Other guidelines
+30 minutes
 
-### Who do I talk to? ###
+## Components exercise #2
 
-* Repo owner or admin
-* Other community or team contact
+-.Create a component for the buttons that will be use in the calculator component.
+-.Define the input and output properties for the new component.
+-.Replace the `<button>` tags for our new component.
+
+## Time Limit
+
+1 hour
