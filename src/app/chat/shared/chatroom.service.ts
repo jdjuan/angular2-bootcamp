@@ -1,26 +1,30 @@
+import { Subject, Observable } from 'rxjs/Rx';
 import { Message } from './message.model';
 import { Injectable } from '@angular/core';
-import { Http,Headers } from '@angular/http'
+import { Http,Headers } from '@angular/http';
+import * as io from 'socket.io-client';
 
 @Injectable()
 export class ChatRoomService {
     private APIEndPoint = 'http://localhost:3000/'
     private headers = new Headers({'Content-Type': 'application/json'});
+    private socketClient:SocketIOClient.Socket;
 
     private messages: Array<Message>;
+    private messagesSource = new Subject<Message>();
+
     constructor(private http: Http) {
         this.messages = new Array<Message>();
+        this.socketClient = io(this.APIEndPoint);
+        this.socketClient.on('chat message', msg => this.messagesSource.next(msg));
     }
 
     postMessage(message: Message) {
-     return this.http.post(this.APIEndPoint,message, {headers: this.headers}).toPromise();
+        this.socketClient.emit('chat message', message);
     }
 
-    getMessages():Promise<Array<Message>> {
-        return this.http.get(this.APIEndPoint)
-                    .toPromise()
-                    .then(response => response.json() as Message[])
-                    .catch(this.handleError);
+    getMessages():Observable<Message> {
+        return this.messagesSource.asObservable()
     }
 
     private handleError(error: any): Promise<any> {

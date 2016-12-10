@@ -19,12 +19,10 @@ export class ChatWindowComponent implements OnInit, OnDestroy {
     }
 
     ngOnInit() {
-        this.timer = Observable.timer(0, 1000);
-        this.subscription = this.timer.subscribe(t => {
-            this.chatService.getMessages().then(
-                messages => this.messages = messages
-            )
-        });
+        this.subscription = this.chatService.getMessages()
+            .subscribe(message =>
+                this.messages.push(message)
+            );
     }
 
     ngOnDestroy() {
