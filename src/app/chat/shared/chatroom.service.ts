@@ -6,7 +6,7 @@ import * as io from 'socket.io-client';
 
 @Injectable()
 export class ChatRoomService {
-    private APIEndPoint = 'http://localhost:3000/'
+    private APIEndPoint = 'https://socketiochat-p1p3.c9users.io/'
     private headers = new Headers({'Content-Type': 'application/json'});
     private socketClient:SocketIOClient.Socket;
 
