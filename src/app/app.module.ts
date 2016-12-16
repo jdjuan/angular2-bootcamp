@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { NewsComponent } from './news/news.component';
 import { AboutModule } from './about/about.module';
@@ -23,17 +24,7 @@ import { AppComponent } from './app.component';
     HomeModule,
     NewsModule,
     AboutModule,
-    RouterModule.forRoot([
-      {
-        path: '', component: HomeComponent
-      },
-      {
-        path: 'news', component: NewsComponent
-      },
-      {
-        path: 'about', component: AboutComponent
-      }
-    ])
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
