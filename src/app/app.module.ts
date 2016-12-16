@@ -1,7 +1,5 @@
 import { AppRoutingModule } from './app-routing.module';
-import { AboutComponent } from './about/about.component';
 import { NewsComponent } from './news/news.component';
-import { AboutModule } from './about/about.module';
 import { NewsModule } from './news/news.module';
 import { HomeModule } from './home/home.module';
 import { HomeComponent } from './home/home.component';
@@ -23,7 +21,6 @@ import { AppComponent } from './app.component';
     HttpModule,
     HomeModule,
     NewsModule,
-    AboutModule,
     AppRoutingModule
   ],
   providers: [],
