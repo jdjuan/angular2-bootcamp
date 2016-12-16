@@ -1,123 +1,31 @@
-# Angular 2 Boot Camp
+# Angular2Bootcamp
 
-## Description
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.21.
 
-This course covers all the core concepts and technical knowledge required to build professional Angular 2 applications. This boot camp includes an introduction to SPA,  TypeScript, project setup, architecture, events, data binding, services, remote calls, observables, routing, modules among others.
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-After taking this course you will understand how to use Angular 2 effectively by building a real world example. We will go through several hands-on exercises where you will grasp the main concepts of building a robust web application.
+## Code scaffolding
 
-## Assistance Limit
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
-20 People
+## Build
 
-## Selection Filter
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-- The candidate should have experience in building web applications with HTML5 and JavaScript.
-- Understanding the changes added to ES2015 is desirable.
-- No previous experience with AngularJS is required.
+## Running unit tests
 
-## Required Environment Setup
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Accounts
+## Running end-to-end tests
 
-- Sign up for a [GitHub](http://github.com/) account if you don't have one
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
 
-### Tools
+## Deploying to Github Pages
 
-- [Git](https://git-scm.com/)
-- [Node 4.x.x and NPM 3.x.x](https://nodejs.org/en/)
-- [Visual Studio Code](https://code.visualstudio.com/)
+Run `ng github-pages:deploy` to deploy to Github Pages.
 
-### Tasks
+## Further help
 
-- Setup SSH keys with you GitHub account following [these steps](https://help.github.com/articles/generating-an-ssh-key/)
-  - When prompted for the **passphrase** field, leave it empty
-
-- Run ```npm install angular-cli -g```
-  - This will take ~8 minutes
-
-- Run ```npm install typescript -g```
-
-## Program Schedule
-
-December | Schedule | Duration
----------|----------|---------
-Friday 2 | 5:00 pm - 9:00 pm | 4
-Saturday 3 | 8:00 am - 5:00 pm | 8
-Monday 5 |  5:00 pm - 9:00 pm | 4
-Tuesday 6 | 5:00 pm - 9:00 pm | 4
-Friday 16 | 5:00 pm - 9:00 pm | 4
-Saturday 17 | 8:00 am - 5:00 pm | 8
- | **Total Duration** | **32 Hours**
-
-## Agenda
-
-### DAY 1: Friday, December 2
-
-#### Content
-
-- Introduction
-- Setup and Tooling
-- TypeScript
-
-#### Resources
-
-- Angular CLI
-  - [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
-  - [Angular CLI full guide](https://github.com/angular/angular-cli)
-- JavaScript
-  - [ES2015 Features](http://es6-features.org/)
-  - [ES2015 Examples](https://github.com/lukehoban/es6features)
-  - [ES2015 Cheat Sheet](https://github.com/jdjuan/juan-herrera/blob/master/what-I-know/web-development/js/es2015.md)
-  - [JS Module Systems](https://github.com/curran/screencasts/tree/gh-pages/jsModulesAndBuildTools)
-  - [ES2015 Playground](http://es6console.com/)
-- TypeScript
-  - [TypeScripy Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
-  - [TypeScript Playground](https://www.typescriptlang.org/play/)
-
-### DAY 2: Saturday, December 3
-
-#### Content
-
-- Architecture of A2
-- App structure
-- Components
-- Binding and Events
-
-### DAY 3: Monday, December 5
-
-#### Content
-
-- NgModules
-
-### DAY 4: Tuesday, December 6
-
-#### Content
-
-- Pipes
-- Dependency Injection
-- Services
-
-### DAY 5: Friday, December 16
-
-#### Content
-
-- HTTP, Promises, and Observables
-- Directives
-
-### DAY 6: Saturday, December 17
-
-#### Content
-
-- Lazy-loading
-- Real World Application
-
-## Success Criteria
-
-### Assistance Required
-
-The participants must take at least 80% of the course, this is 26 hours.
-
-### Evaluation Parameters
-
-TBD
+To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
