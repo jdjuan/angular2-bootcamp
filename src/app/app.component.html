@@ -1,0 +1,4 @@
+<ul>
+  <li *ngFor="let friend of friends | async" (click)="findFriend(friend.name)"> {{friend.name}} </li>
+</ul>
+<button (click)="makeRandomFriend()">Make a new friend!</button>
