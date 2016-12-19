@@ -26,7 +26,7 @@ The candidate should be proficient writing web applications with HTML5 and JavaS
 - Install [Git](https://git-scm.com/)
 - Install [Node and NPM](https://nodejs.org/en/)
 - Install [Visual Studio Code](https://code.visualstudio.com/)
-  - The editor is a matter of taste, but this one is recommended, specially if haven't tried it yet
+  - The editor is a matter of taste, but this one is recommended, especially if you haven't tried it yet
 - Setup SSH keys with you GitHub account following [these steps](https://help.github.com/articles/generating-an-ssh-key/)
   - When prompted for the **passphrase** field, leave it empty
 - Run ```npm install angular-cli -g```
@@ -114,11 +114,6 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
   - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
   - [TypeScript Playground](https://www.typescriptlang.org/play/)
 
-
-### Assistance Required
+## Assistance Required
 
 The participants must take at least 80% of the course, this is 26 hours.
-
-### Evaluation Parameters
-
-A real life example application will be assigned during the boot camp.
