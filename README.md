@@ -50,20 +50,25 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 - Introduction
 - TypeScript and ES2015
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day1-typescript)
 - Setup and Tooling
 
 ### [DAY 2:](http://slides.com/jdjuan/angular2-day-2) Saturday, December 3
 
 - Architecture of Angular
 - App structure
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day2-app-structure)
 - Components
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day2-components)
 - Binding and Events
 
 ### [DAY 3:](http://slides.com/jdjuan/angular2-day-3) Monday, December 5
 
 - Forms and Validations
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day3-form-validation)
 - Modules
 - Services
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day3-services)
 - Pipes
 
 ### [DAY 4:](http://slides.com/jdjuan/angular2-day-4) Tuesday, December 6
@@ -71,18 +76,23 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 - Dependency Injection
 - Inversion of Dependencies
 - Inversion of Control
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day4-services)
 - Routing
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day4-routing)
 
 ### [DAY 5:](https://slides.com/jdjuan/angular2-day-5/) Friday, December 16
 
 - Lazy Loading
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day5-lazy-loading)
 - HTTP and Promises
 - Observables and RxJS
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day5-http-observable)
 
 ### [DAY 6:](https://slides.com/jdjuan/angular2-day-6) Saturday, December 17
 
 - Angular Testing
 - Data Mocking
+  - [Exercise](https://github.com/jdjuan/angular2-bootcamp/tree/day6-in-memory-web-api)
 
 ## Resources
 
@@ -101,7 +111,7 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
   - [JS Module Systems](https://github.com/curran/screencasts/tree/gh-pages/jsModulesAndBuildTools)
   - [ES2015 Playground](http://es6console.com/)
 - TypeScript
-  - [TypeScripy Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+  - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
   - [TypeScript Playground](https://www.typescriptlang.org/play/)
 
 
