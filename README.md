@@ -8,39 +8,33 @@ After taking this course you will understand how to use Angular 2 effectively by
 
 ## Assistance Limit
 
-20 People
+In order to ensure the quality of the learning process the course is limited to 20 people.
 
 ## Selection Filter
 
-- The candidate should have experience in building web applications with HTML5 and JavaScript.
-- Understanding the changes added to ES2015 is desirable.
-- No previous experience with AngularJS is required.
+The candidate should be proficient writing web applications with HTML5 and JavaScript.
+
+### Desirable
+- Familiarity with ES2015 and TypeScript
+- Understanding of Software Development Patterns
+
+*Previous experience with AngularJS is not required*
 
 ## Required Environment Setup
 
-### Accounts
-
-- Sign up for a [GitHub](http://github.com/) account if you don't have one
-
-### Tools
-
-- [Git](https://git-scm.com/)
-- [Node 4.x.x and NPM 3.x.x](https://nodejs.org/en/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-### Tasks
-
+1. Sign up for a [GitHub](http://github.com/) account if you don't have one
+- Install [Git](https://git-scm.com/)
+- Install [Node and NPM](https://nodejs.org/en/)
+- Install [Visual Studio Code](https://code.visualstudio.com/)
+  - The editor is a matter of taste, but this one is recommended, specially if haven't tried it yet
 - Setup SSH keys with you GitHub account following [these steps](https://help.github.com/articles/generating-an-ssh-key/)
   - When prompted for the **passphrase** field, leave it empty
-
 - Run ```npm install angular-cli -g```
-  - This will take ~8 minutes
-
-- Run ```npm install typescript -g```
+  - This will take ~8 minutes depending on your internet connection
 
 ## Program Schedule
 
-December | Schedule | Duration
+December 2016 | Schedule | Duration
 ---------|----------|---------
 Friday 2 | 5:00 pm - 9:00 pm | 4
 Saturday 3 | 8:00 am - 5:00 pm | 8
@@ -52,16 +46,51 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
 
 ## Agenda
 
-### DAY 1: Friday, December 2
-
-#### Content
+### [DAY 1:](https://slides.com/jdjuan/angular2-day-1) Friday, December 2
 
 - Introduction
+- TypeScript and ES2015
 - Setup and Tooling
-- TypeScript
 
-#### Resources
+### [DAY 2:](http://slides.com/jdjuan/angular2-day-2) Saturday, December 3
 
+- Architecture of Angular
+- App structure
+- Components
+- Binding and Events
+
+### [DAY 3:](http://slides.com/jdjuan/angular2-day-3) Monday, December 5
+
+- Forms and Validations
+- Modules
+- Services
+- Pipes
+
+### [DAY 4:](http://slides.com/jdjuan/angular2-day-4) Tuesday, December 6
+
+- Dependency Injection
+- Inversion of Dependencies
+- Inversion of Control
+- Routing
+
+### [DAY 5:](https://slides.com/jdjuan/angular2-day-5/) Friday, December 16
+
+- Lazy Loading
+- HTTP and Promises
+- Observables and RxJS
+
+### [DAY 6:](https://slides.com/jdjuan/angular2-day-6) Saturday, December 17
+
+- Angular Testing
+- Data Mocking
+
+## Resources
+
+- Angular
+  - [Angular Style Guide](https://angular.io/docs/ts/latest/guide/style-guide.html)
+  - [Cheat Sheet](https://angular.io/docs/ts/latest/guide/cheatsheet.html)
+  - [Glossary](https://angular.io/docs/ts/latest/guide/glossary.html)
+  - [Angular Tutorial](https://angular.io/docs/ts/latest/tutorial/)
 - Angular CLI
   - [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
   - [Angular CLI full guide](https://github.com/angular/angular-cli)
@@ -75,44 +104,6 @@ Saturday 17 | 8:00 am - 5:00 pm | 8
   - [TypeScripy Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
   - [TypeScript Playground](https://www.typescriptlang.org/play/)
 
-### DAY 2: Saturday, December 3
-
-#### Content
-
-- Architecture of A2
-- App structure
-- Components
-- Binding and Events
-
-### DAY 3: Monday, December 5
-
-#### Content
-
-- NgModules
-
-### DAY 4: Tuesday, December 6
-
-#### Content
-
-- Pipes
-- Dependency Injection
-- Services
-
-### DAY 5: Friday, December 16
-
-#### Content
-
-- HTTP, Promises, and Observables
-- Directives
-
-### DAY 6: Saturday, December 17
-
-#### Content
-
-- Lazy-loading
-- Real World Application
-
-## Success Criteria
 
 ### Assistance Required
 
@@ -120,4 +111,4 @@ The participants must take at least 80% of the course, this is 26 hours.
 
 ### Evaluation Parameters
 
-TBD
+A real life example application will be assigned during the boot camp.
