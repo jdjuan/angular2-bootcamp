@@ -1,115 +1,39 @@
-# Angular 2 Boot Camp
+# Angular2 HTTP, Promises and Observables
 
-## Description
+## Call a HTTP REST Service
 
-This course covers all the core concepts and technical knowledge required to build professional Angular 2 applications. This boot camp includes an introduction to SPA,  TypeScript, project setup, architecture, events, data binding, services, remote calls, observables, routing, modules among others.
+1. Add APIEndPoint =  'https://socketiochat-p1p3.c9users.io/'
+2. Inject http
+3. GetMessages now will return a promise from http.Get(APIEndPoint+'/Messages')
+4. PostMessages will use http.post 
+5. Declare the headers 
+  * private headers = new Headers({'Content-Type': 'application/json'});
+6.  Modified window-chat component to use getMessages with promises
 
-After taking this course you will understand how to use Angular 2 effectively by building a real world example. We will go through several hands-on exercises where you will grasp the main concepts of building a robust web application.
 
-## Assistance Limit
+## Make it reactive !
 
-20 People
+1. Install socket.io client
+  * npm install socket.io-client --save
+2. Install socket.io client typings
+  * npm install --save @types/socket.io-client
+3. Import socket.io 
+  * `import * as io from 'socket.io-client'`
+4. Define a private socket
+  * `private socketClient:SocketIOClient.Socket;`
+5. Initialize the scoket pointing to the ApiEndPoint
+  * `this.socketClient = io(this.APIEndPoint);`
+6. Create a Subject of messages
+  * `private messagesSource = new Subject<Message>();`
+7. Modify the postMessage to emit the message 
+  * `this.socketClient.emit('chat message', message);`
+8. Modify the getMessages tu return a observable of messages:
+  * `return this.messagesSource.asObservable();`
+9. Subscribe to socket.io to emit when a new message arrives
+  *  `this.socketClient.on('chat message', msg => this.messagesSource.next(msg));`
+10. On ChatWindowComponent delete the timer and subscribe to the subject we just created.
+  * `this.subscription = this.chatService.getMessages()
+            .subscribe(message =>
+                this.messages.push(message)
+            );`
 
-## Selection Filter
-
-- The candidate should have experience in building web applications with HTML5 and JavaScript.
-- ES6 is desirable
-- No previous experience with AngularJS is required.
-
-## Required Environment Setup
-
-### Accounts
-
-- Sign up for a [GitHub](http://github.com/) account if you don't have one
-
-### Tools
-
-- [Git](https://git-scm.com/)
-- [Node 4.x.x and NPM 3.x.x](https://nodejs.org/en/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-
-### Tasks
-
-- Setup SSH keys with you GitHub account following [these steps](https://help.github.com/articles/generating-an-ssh-key/)
-  - When prompted for the **passphrase** field, leave it empty
-
-- Run ```npm install angular-cli -g```
-  - This will take ~8 minutes
-
-- Run ```npm install typescript -g```
-
-## Program Schedule
-
-December | Schedule | Duration
----------|----------|---------
-Friday 2 | 5:00 pm - 9:00 pm | <center>4
-Saturday 3 | 8:00 am - 5:00 pm | <center>8
-Monday 5 |  5:00 pm - 9:00 pm | <center>4
-Tuesday 6 | 5:00 pm - 9:00 pm | <center>4
-Friday 16 | 5:00 pm - 9:00 pm | <center>4
-Saturday 17 | 8:00 am - 5:00 pm | <center>8
- | <center>**Total Duration** | <center>**32 Hours**
-
-## Agenda
-
-### DAY 1: Friday, December 2
-
-#### Content
-
-- Introduction
-- Setup and Tooling
-- TypeScript
-
-#### Resources
-
-- [Angular CLI quick guide](https://cli.angular.io/reference.pdf)
-- [Angular CLI full guide](https://github.com/angular/angular-cli)
-- [ES2015 Features](http://es6-features.org/)
-- [ES2015 Cheat Sheet](https://github.com/jdjuan/juan-herrera/blob/master/what-I-know/web-development/js/es2015.md)
-
-### DAY 2: Saturday, December 3
-
-#### Content
-
-- Architecture of A2
-- App structure
-- Components
-- Binding and Events
-
-### DAY 3: Monday, December 5
-
-#### Content
-
-- NgModules
-
-### DAY 4: Tuesday, December 6
-
-#### Content
-
-- Pipes
-- Dependency Injection
-- Services
-
-### DAY 5: Friday, December 16
-
-#### Content
-
-- HTTP, Promises, and Observables
-- Directives
-
-### DAY 6: Saturday, December 17
-
-#### Content
-
-- Lazy-loading
-- Real World Application
-
-## Success Criteria
-
-### Assistance Required
-
-The participants must take at least 80% of the course, this is 26 hours.
-
-### Evaluation Parameters
-
-TBD
