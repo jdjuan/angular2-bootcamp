@@ -35,7 +35,7 @@ class Dog extends Animal implements Mammal {
 	hair: string;
 
 	constructor(public name: string) {
-		super(name);
+		super(name, new NotClimbable());
 	}
 
 	bark(sound: string): string {
@@ -61,7 +61,7 @@ class Cat extends Animal implements Mammal {
 	hair: string;
 
 	constructor(public name: string) {
-		super(name);
+		super(name, new Climbable());
 	}
 
 	meow(sound: string): string {
